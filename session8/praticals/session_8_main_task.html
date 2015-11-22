@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HTML - Form </title>
+        <meta charset="utf-8">
+        <meta name="description" content="Session 8 form task">
+    </head>
+    <body>
+        <!-- This is a large un-styled form -->
+        <h1> Travel Survey</h1>
+        <form>
+        
+        <!-- Personal Information  -->
+
+            <label> First Name(*): </label> <input type="text" name="first_name">
+            <label> Last Name(*):   </label> <input type="text" name="last_name">
+            
+        <!-- Contact Information -->   
+            
+            <label> Address Line 1(*): </label> <input type="text" name="address_1" required>
+            <label>Post Code(*) </label> <input type="text" name="post_code">
+            <label>Phone Number1(*) </label>
+            <label>Phone Number2</label>
+            <label> Email(*): </label> <input type="text" name="address_1">
+            
+        <!-- Travel  Information --> 
+            
+            <label> How do you normally travel to university?</label>
+            
+            <input type="radio" name="tasport_method" value="drive"> Drive
+            <input type="radio" name="tasport_method" value="public"> Public transport
+            <input type="radio" name="tasport_method" value="public"> Walk
+            
+            <label> How long does it take you to travel in? </label>
+            <select name="travel_time">
+                <option value="10">0 - 10 mins</option>
+                <option value="20">10 - 20 mins</option>
+                <option value="30">20 - 30 mins</option>
+                <option value="30+">30 mins +</option>
+            </select>
+            
+        <!--  Declaration  -->     
+            
+            <label> Are you happy for us to email you</label>
+                <input type="radio" name="yes" value="yes"> Yes
+                <input type="radio" name="no" value="no">No
+        
+        <!-- Submit button -->            
+            <input type="submit">    
+        </form>
+    </body>
+</html>
+
