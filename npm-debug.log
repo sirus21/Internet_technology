@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'uninstall', '-g', 'gitbook' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose lib/node_modules/gitbook unbuild
+5 info preuninstall gitbook@2.5.2
+6 info uninstall gitbook@2.5.2
+7 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild gitbook@2.5.2
+8 verbose /usr/local/bin,[object Object] binRoot
+9 info postuninstall gitbook@2.5.2
+10 error Error: EACCES, unlink '/usr/local/lib/node_modules/gitbook'
+10 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/gitbook']
+10 error   errno: 3,
+10 error   code: 'EACCES',
+10 error   path: '/usr/local/lib/node_modules/gitbook' }
+11 error Please try running this command again as root/Administrator.
+12 error System Darwin 14.0.0
+13 error command "node" "/usr/local/bin/npm" "uninstall" "-g" "gitbook"
+14 error cwd /Users/joeappleton1/OneDrive/solent/courses/1IT/course/session7_plus_github
+15 error node -v v0.10.35
+16 error npm -v 1.4.28
+17 error path /usr/local/lib/node_modules/gitbook
+18 error code EACCES
+19 error errno 3
+20 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/gitbook'
+21 verbose exit [ 3, true ]

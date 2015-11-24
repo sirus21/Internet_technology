@@ -3,9 +3,18 @@
     <head>
         <title> A very basic form </title>
         <link type="text/css" rel="stylesheet">
+        <style>
+               #payment input[type="text"]{
+                    background: linear-gradient(white,grey);   
+                    box-shadow: 10px #888888;
+}
+               }
+                
+        </style>
+        
     </head>
     <body>
-        <form>
+        <form id="payment">
             <!-- personal details -->  
             <label> First Name </label> <input type = "text" name="firstName">
             <label> Last Name </label> <input type  = "text" name="lastName">
